@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/mode_select/mode_select.egg-info
+writing ../../build/mode_select/mode_select.egg-info/PKG-INFO
+writing dependency_links to ../../build/mode_select/mode_select.egg-info/dependency_links.txt
+writing entry points to ../../build/mode_select/mode_select.egg-info/entry_points.txt
+writing requirements to ../../build/mode_select/mode_select.egg-info/requires.txt
+writing top-level names to ../../build/mode_select/mode_select.egg-info/top_level.txt
+writing manifest file '../../build/mode_select/mode_select.egg-info/SOURCES.txt'
+reading manifest file '../../build/mode_select/mode_select.egg-info/SOURCES.txt'
+writing manifest file '../../build/mode_select/mode_select.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rsl/pioneerbase_ws/build/mode_select/build
+creating /home/rsl/pioneerbase_ws/build/mode_select/build/lib
+creating /home/rsl/pioneerbase_ws/build/mode_select/build/lib/mode_select
+copying mode_select/__init__.py -> /home/rsl/pioneerbase_ws/build/mode_select/build/lib/mode_select
+running install
+running install_lib
+creating /home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages/mode_select
+copying /home/rsl/pioneerbase_ws/build/mode_select/build/lib/mode_select/__init__.py -> /home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages/mode_select
+byte-compiling /home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages/mode_select/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rsl/pioneerbase_ws/install/mode_select/share/ament_index
+creating /home/rsl/pioneerbase_ws/install/mode_select/share/ament_index/resource_index
+creating /home/rsl/pioneerbase_ws/install/mode_select/share/ament_index/resource_index/packages
+copying resource/mode_select -> /home/rsl/pioneerbase_ws/install/mode_select/share/ament_index/resource_index/packages
+copying package.xml -> /home/rsl/pioneerbase_ws/install/mode_select/share/mode_select
+running install_egg_info
+Copying ../../build/mode_select/mode_select.egg-info to /home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages/mode_select-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rsl/pioneerbase_ws/build/mode_select/install.log'

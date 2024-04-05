@@ -1,0 +1,490 @@
+[1.602s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.602s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffa5cccb520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffa5d1b7d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffa5d1b7d30>>)
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.674s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rsl/pioneerbase_ws'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'ignore_ament_install'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extensions ['colcon_pkg']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'colcon_pkg'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extensions ['colcon_meta']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'colcon_meta'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extensions ['ros']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'ros'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extensions ['cmake', 'python']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'cmake'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'python'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extensions ['python_setup_py']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(navMar8) by extension 'python_setup_py'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extension 'ignore'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extension 'ignore_ament_install'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extensions ['colcon_pkg']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extension 'colcon_pkg'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extensions ['colcon_meta']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extension 'colcon_meta'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extensions ['ros']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/bs_launch) by extension 'ros'
+[1.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bs_launch' with type 'ros.ament_cmake' and name 'bs_launch'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extension 'ignore_ament_install'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extensions ['colcon_pkg']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extension 'colcon_meta'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extensions ['ros']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_target_push) by extension 'ros'
+[1.699s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_target_push' with type 'ros.ament_python' and name 'gps_target_push'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extension 'ignore_ament_install'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extensions ['colcon_pkg']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extension 'colcon_pkg'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extensions ['colcon_meta']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extension 'colcon_meta'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extensions ['ros']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/mode_select) by extension 'ros'
+[1.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mode_select' with type 'ros.ament_python' and name 'mode_select'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extensions ['ignore', 'ignore_ament_install']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extension 'ignore'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extension 'ignore_ament_install'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extensions ['colcon_pkg']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extension 'colcon_pkg'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extensions ['colcon_meta']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extension 'colcon_meta'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core1) by extension 'ros'
+[1.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_core1' with type 'ros.ament_python' and name 'navigation_core1'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extensions ['ignore', 'ignore_ament_install']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extension 'ignore'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extension 'ignore_ament_install'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extensions ['colcon_pkg']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extension 'colcon_pkg'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extensions ['colcon_meta']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extension 'colcon_meta'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extensions ['ros']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core2) by extension 'ros'
+[1.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_core2' with type 'ros.ament_python' and name 'navigation_core2'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extensions ['ignore', 'ignore_ament_install']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extension 'ignore'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extension 'ignore_ament_install'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extensions ['colcon_pkg']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extension 'colcon_pkg'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extensions ['colcon_meta']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extension 'colcon_meta'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extensions ['ros']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_core3) by extension 'ros'
+[1.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_core3' with type 'ros.ament_python' and name 'navigation_core3'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extensions ['ignore', 'ignore_ament_install']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extension 'ignore'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extension 'ignore_ament_install'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extensions ['colcon_pkg']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extension 'colcon_pkg'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extensions ['colcon_meta']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extension 'colcon_meta'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extensions ['ros']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_teleop_joy) by extension 'ros'
+[1.706s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_teleop_joy' with type 'ros.ament_python' and name 'rover_teleop_joy'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extensions ['ignore', 'ignore_ament_install']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'ignore'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'ignore_ament_install'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extensions ['colcon_pkg']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'colcon_meta'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extensions ['ros']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'ros'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extensions ['cmake', 'python']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'cmake'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'python'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extensions ['python_setup_py']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing) by extension 'python_setup_py'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extensions ['ignore', 'ignore_ament_install']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'ignore'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'ignore_ament_install'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extensions ['colcon_pkg']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'colcon_pkg'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extensions ['colcon_meta']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'colcon_meta'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extensions ['ros']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'ros'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extensions ['cmake', 'python']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'cmake'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'python'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extensions ['python_setup_py']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(testing/testing2) by extension 'python_setup_py'
+[1.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.904s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rsl/pioneerbase_ws/install
+[1.929s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.931s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.084s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'cmake_target' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'cmake_clean_first' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'cmake_force_configure' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'ament_cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'bs_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.085s] DEBUG:colcon.colcon_core.verb:Building package 'bs_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/bs_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/bs_launch', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/bs_launch', 'symlink_install': False, 'test_result_base': None}
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'cmake_args' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'cmake_target' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'cmake_clean_cache' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'cmake_clean_first' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'cmake_force_configure' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'ament_cmake_args' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'catkin_cmake_args' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'gps_target_push' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.109s] DEBUG:colcon.colcon_core.verb:Building package 'gps_target_push' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/gps_target_push', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/gps_target_push', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/gps_target_push', 'symlink_install': False, 'test_result_base': None}
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'cmake_args' from command line to 'None'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'cmake_target' from command line to 'None'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'cmake_clean_cache' from command line to 'False'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'cmake_clean_first' from command line to 'False'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'cmake_force_configure' from command line to 'False'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'ament_cmake_args' from command line to 'None'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'catkin_cmake_args' from command line to 'None'
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mode_select' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.134s] DEBUG:colcon.colcon_core.verb:Building package 'mode_select' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/mode_select', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/mode_select', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/mode_select', 'symlink_install': False, 'test_result_base': None}
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'cmake_args' from command line to 'None'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'cmake_target' from command line to 'None'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'cmake_clean_cache' from command line to 'False'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'cmake_clean_first' from command line to 'False'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'cmake_force_configure' from command line to 'False'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'ament_cmake_args' from command line to 'None'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'catkin_cmake_args' from command line to 'None'
+[2.158s] Level 5:colcon.colcon_core.verb:set package 'navigation_core1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.158s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_core1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/navigation_core1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/navigation_core1', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/navigation_core1', 'symlink_install': False, 'test_result_base': None}
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'cmake_args' from command line to 'None'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'cmake_target' from command line to 'None'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'cmake_clean_first' from command line to 'False'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'cmake_force_configure' from command line to 'False'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'ament_cmake_args' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'navigation_core2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.183s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_core2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/navigation_core2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/navigation_core2', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/navigation_core2', 'symlink_install': False, 'test_result_base': None}
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'cmake_target' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'cmake_clean_cache' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'cmake_clean_first' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'cmake_force_configure' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'ament_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'catkin_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'navigation_core3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.207s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_core3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/navigation_core3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/navigation_core3', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/navigation_core3', 'symlink_install': False, 'test_result_base': None}
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'cmake_args' from command line to 'None'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'cmake_target' from command line to 'None'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'cmake_clean_first' from command line to 'False'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'cmake_force_configure' from command line to 'False'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'ament_cmake_args' from command line to 'None'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[2.231s] Level 5:colcon.colcon_core.verb:set package 'rover_teleop_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.231s] DEBUG:colcon.colcon_core.verb:Building package 'rover_teleop_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/pioneerbase_ws/build/rover_teleop_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/pioneerbase_ws/install/rover_teleop_joy', 'merge_install': False, 'path': '/home/rsl/pioneerbase_ws/src/rover_teleop_joy', 'symlink_install': False, 'test_result_base': None}
+[2.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/bs_launch' with build type 'ament_cmake'
+[2.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rsl/pioneerbase_ws/src/bs_launch'
+[2.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.387s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/gps_target_push' with build type 'ament_python'
+[2.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_target_push', 'ament_prefix_path')
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/hook/ament_prefix_path.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/hook/ament_prefix_path.dsv'
+[2.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/hook/ament_prefix_path.sh'
+[2.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.531s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/mode_select' with build type 'ament_python'
+[2.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('mode_select', 'ament_prefix_path')
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/hook/ament_prefix_path.ps1'
+[2.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/hook/ament_prefix_path.dsv'
+[2.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/hook/ament_prefix_path.sh'
+[2.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.669s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/navigation_core1' with build type 'ament_python'
+[2.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_core1', 'ament_prefix_path')
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/hook/ament_prefix_path.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/hook/ament_prefix_path.dsv'
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/hook/ament_prefix_path.sh'
+[2.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/pioneerbase_ws/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/install/navigation_core3:/home/rsl/pioneerbase_ws/install/navigation_core2:/home/rsl/pioneerbase_ws/install/navigation_core1:/home/rsl/pioneerbase_ws/install/mode_select:/home/rsl/pioneerbase_ws/install/gps_target_push:/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/build/bs_launch -- -j4 -l4
+[3.204s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/pioneerbase_ws/src/gps_target_push'
+[3.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.714s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/pioneerbase_ws/src/mode_select'
+[3.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.227s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/pioneerbase_ws/src/navigation_core1'
+[4.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/pioneerbase_ws/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/install/navigation_core3:/home/rsl/pioneerbase_ws/install/navigation_core2:/home/rsl/pioneerbase_ws/install/navigation_core1:/home/rsl/pioneerbase_ws/install/mode_select:/home/rsl/pioneerbase_ws/install/gps_target_push:/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/build/bs_launch -- -j4 -l4
+[4.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/pioneerbase_ws/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/install/navigation_core3:/home/rsl/pioneerbase_ws/install/navigation_core2:/home/rsl/pioneerbase_ws/install/navigation_core1:/home/rsl/pioneerbase_ws/install/mode_select:/home/rsl/pioneerbase_ws/install/gps_target_push:/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/build/bs_launch
+[4.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bs_launch)
+[4.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/pioneerbase_ws/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/install/navigation_core3:/home/rsl/pioneerbase_ws/install/navigation_core2:/home/rsl/pioneerbase_ws/install/navigation_core1:/home/rsl/pioneerbase_ws/install/mode_select:/home/rsl/pioneerbase_ws/install/gps_target_push:/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/build/bs_launch
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch' for CMake module files
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch' for CMake config files
+[4.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('bs_launch', 'cmake_prefix_path')
+[4.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/hook/cmake_prefix_path.ps1'
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/hook/cmake_prefix_path.dsv'
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/hook/cmake_prefix_path.sh'
+[4.534s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/bin'
+[4.534s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/lib/pkgconfig/bs_launch.pc'
+[4.535s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/lib/python3.10/site-packages'
+[4.535s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/bin'
+[4.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.ps1'
+[4.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.dsv'
+[4.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.sh'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.bash'
+[4.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.zsh'
+[4.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/bs_launch/share/colcon-core/packages/bs_launch)
+[4.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bs_launch)
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch' for CMake module files
+[4.728s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch' for CMake config files
+[4.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('bs_launch', 'cmake_prefix_path')
+[4.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/hook/cmake_prefix_path.ps1'
+[4.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/hook/cmake_prefix_path.dsv'
+[4.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/hook/cmake_prefix_path.sh'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/bin'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/lib/pkgconfig/bs_launch.pc'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/lib/python3.10/site-packages'
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/bs_launch/bin'
+[4.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.ps1'
+[4.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.dsv'
+[4.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.sh'
+[4.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.bash'
+[4.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.zsh'
+[4.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/bs_launch/share/colcon-core/packages/bs_launch)
+[4.832s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/navigation_core2' with build type 'ament_python'
+[4.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_core2', 'ament_prefix_path')
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/hook/ament_prefix_path.ps1'
+[4.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/hook/ament_prefix_path.dsv'
+[4.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/hook/ament_prefix_path.sh'
+[4.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.579s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/pioneerbase_ws/src/navigation_core2'
+[5.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/src/gps_target_push': PYTHONPATH=/home/rsl/pioneerbase_ws/build/gps_target_push/prefix_override:/home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gps_target_push build --build-base /home/rsl/pioneerbase_ws/build/gps_target_push/build install --record /home/rsl/pioneerbase_ws/build/gps_target_push/install.log --single-version-externally-managed
+[5.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/src/navigation_core1': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core1/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core1 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core1/build install --record /home/rsl/pioneerbase_ws/build/navigation_core1/install.log --single-version-externally-managed
+[5.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/src/mode_select': PYTHONPATH=/home/rsl/pioneerbase_ws/build/mode_select/prefix_override:/home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mode_select build --build-base /home/rsl/pioneerbase_ws/build/mode_select/build install --record /home/rsl/pioneerbase_ws/build/mode_select/install.log --single-version-externally-managed
+[6.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/src/gps_target_push' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/gps_target_push/prefix_override:/home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gps_target_push build --build-base /home/rsl/pioneerbase_ws/build/gps_target_push/build install --record /home/rsl/pioneerbase_ws/build/gps_target_push/install.log --single-version-externally-managed
+[6.546s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push' for CMake module files
+[6.547s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push' for CMake config files
+[6.548s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push/lib'
+[6.548s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push/bin'
+[6.548s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push/lib/pkgconfig/gps_target_push.pc'
+[6.549s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages'
+[6.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_target_push', 'pythonpath')
+[6.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/hook/pythonpath.ps1'
+[6.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/hook/pythonpath.dsv'
+[6.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/hook/pythonpath.sh'
+[6.576s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/gps_target_push/bin'
+[6.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_target_push)
+[6.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/package.ps1'
+[6.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/package.dsv'
+[6.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/package.sh'
+[6.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/package.bash'
+[6.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/gps_target_push/share/gps_target_push/package.zsh'
+[6.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/gps_target_push/share/colcon-core/packages/gps_target_push)
+[6.605s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/navigation_core3' with build type 'ament_python'
+[6.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_core3', 'ament_prefix_path')
+[6.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/hook/ament_prefix_path.ps1'
+[6.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/hook/ament_prefix_path.dsv'
+[6.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/hook/ament_prefix_path.sh'
+[6.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/src/navigation_core2': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core2/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core2 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core2/build install --record /home/rsl/pioneerbase_ws/build/navigation_core2/install.log --single-version-externally-managed
+[6.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/src/navigation_core1' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core1/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core1 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core1/build install --record /home/rsl/pioneerbase_ws/build/navigation_core1/install.log --single-version-externally-managed
+[6.792s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1' for CMake module files
+[6.793s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1' for CMake config files
+[6.793s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1/lib'
+[6.793s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1/bin'
+[6.794s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1/lib/pkgconfig/navigation_core1.pc'
+[6.794s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1/lib/python3.10/site-packages'
+[6.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_core1', 'pythonpath')
+[6.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/hook/pythonpath.ps1'
+[6.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/hook/pythonpath.dsv'
+[6.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/hook/pythonpath.sh'
+[6.823s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core1/bin'
+[6.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_core1)
+[6.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/package.ps1'
+[6.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/package.dsv'
+[6.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/package.sh'
+[6.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/package.bash'
+[6.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core1/share/navigation_core1/package.zsh'
+[6.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/navigation_core1/share/colcon-core/packages/navigation_core1)
+[6.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/src/mode_select' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/mode_select/prefix_override:/home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mode_select build --build-base /home/rsl/pioneerbase_ws/build/mode_select/build install --record /home/rsl/pioneerbase_ws/build/mode_select/install.log --single-version-externally-managed
+[6.883s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select' for CMake module files
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select' for CMake config files
+[6.885s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select/lib'
+[6.885s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select/bin'
+[6.886s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select/lib/pkgconfig/mode_select.pc'
+[6.886s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages'
+[6.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('mode_select', 'pythonpath')
+[6.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/hook/pythonpath.ps1'
+[6.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/hook/pythonpath.dsv'
+[6.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/hook/pythonpath.sh'
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/mode_select/bin'
+[6.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mode_select)
+[6.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/package.ps1'
+[6.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/package.dsv'
+[6.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/package.sh'
+[6.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/package.bash'
+[6.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/mode_select/share/mode_select/package.zsh'
+[6.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/mode_select/share/colcon-core/packages/mode_select)
+[6.948s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy' with build type 'ament_python'
+[6.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_teleop_joy', 'ament_prefix_path')
+[6.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/hook/ament_prefix_path.ps1'
+[6.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/hook/ament_prefix_path.dsv'
+[6.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/hook/ament_prefix_path.sh'
+[7.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.500s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/pioneerbase_ws/src/navigation_core3'
+[7.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.002s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy'
+[8.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/src/navigation_core2' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core2/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core2 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core2/build install --record /home/rsl/pioneerbase_ws/build/navigation_core2/install.log --single-version-externally-managed
+[8.145s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2' for CMake module files
+[8.146s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2' for CMake config files
+[8.147s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2/lib'
+[8.147s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2/bin'
+[8.147s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2/lib/pkgconfig/navigation_core2.pc'
+[8.147s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages'
+[8.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_core2', 'pythonpath')
+[8.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/hook/pythonpath.ps1'
+[8.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/hook/pythonpath.dsv'
+[8.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/hook/pythonpath.sh'
+[8.173s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core2/bin'
+[8.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_core2)
+[8.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/package.ps1'
+[8.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/package.dsv'
+[8.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/package.sh'
+[8.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/package.bash'
+[8.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core2/share/navigation_core2/package.zsh'
+[8.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/navigation_core2/share/colcon-core/packages/navigation_core2)
+[8.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/src/navigation_core3': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core3/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core3 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core3/build install --record /home/rsl/pioneerbase_ws/build/navigation_core3/install.log --single-version-externally-managed
+[8.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy': PYTHONPATH=/home/rsl/pioneerbase_ws/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_teleop_joy build --build-base /home/rsl/pioneerbase_ws/build/rover_teleop_joy/build install --record /home/rsl/pioneerbase_ws/build/rover_teleop_joy/install.log --single-version-externally-managed
+[9.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_teleop_joy build --build-base /home/rsl/pioneerbase_ws/build/rover_teleop_joy/build install --record /home/rsl/pioneerbase_ws/build/rover_teleop_joy/install.log --single-version-externally-managed
+[9.267s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy' for CMake module files
+[9.268s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy' for CMake config files
+[9.269s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib'
+[9.269s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/bin'
+[9.269s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/pkgconfig/rover_teleop_joy.pc'
+[9.269s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages'
+[9.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_teleop_joy', 'pythonpath')
+[9.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/hook/pythonpath.ps1'
+[9.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/hook/pythonpath.dsv'
+[9.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/hook/pythonpath.sh'
+[9.295s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/bin'
+[9.295s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_teleop_joy)
+[9.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/package.ps1'
+[9.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/package.dsv'
+[9.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/package.sh'
+[9.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/package.bash'
+[9.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/rover_teleop_joy/package.zsh'
+[9.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/rover_teleop_joy/share/colcon-core/packages/rover_teleop_joy)
+[9.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/pioneerbase_ws/src/navigation_core3' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core3/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core3 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core3/build install --record /home/rsl/pioneerbase_ws/build/navigation_core3/install.log --single-version-externally-managed
+[9.352s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3' for CMake module files
+[9.353s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3' for CMake config files
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3/lib'
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3/bin'
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3/lib/pkgconfig/navigation_core3.pc'
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages'
+[9.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_core3', 'pythonpath')
+[9.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/hook/pythonpath.ps1'
+[9.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/hook/pythonpath.dsv'
+[9.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/hook/pythonpath.sh'
+[9.380s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/pioneerbase_ws/install/navigation_core3/bin'
+[9.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_core3)
+[9.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/package.ps1'
+[9.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/package.dsv'
+[9.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/package.sh'
+[9.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/package.bash'
+[9.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/pioneerbase_ws/install/navigation_core3/share/navigation_core3/package.zsh'
+[9.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/pioneerbase_ws/install/navigation_core3/share/colcon-core/packages/navigation_core3)
+[9.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.410s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.515s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.550s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/pioneerbase_ws/install/local_setup.ps1'
+[9.585s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rsl/pioneerbase_ws/install/_local_setup_util_ps1.py'
+[9.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/pioneerbase_ws/install/setup.ps1'
+[9.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/pioneerbase_ws/install/local_setup.sh'
+[9.616s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rsl/pioneerbase_ws/install/_local_setup_util_sh.py'
+[9.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/pioneerbase_ws/install/setup.sh'
+[9.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/pioneerbase_ws/install/local_setup.bash'
+[9.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/pioneerbase_ws/install/setup.bash'
+[9.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/pioneerbase_ws/install/local_setup.zsh'
+[9.674s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/pioneerbase_ws/install/setup.zsh'

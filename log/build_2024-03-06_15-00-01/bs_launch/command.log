@@ -1,0 +1,6 @@
+Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rsl/pioneerbase_ws/src/bs_launch -DCMAKE_INSTALL_PREFIX=/home/rsl/pioneerbase_ws/install/bs_launch
+Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rsl/pioneerbase_ws/src/bs_launch -DCMAKE_INSTALL_PREFIX=/home/rsl/pioneerbase_ws/install/bs_launch
+Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/build/bs_launch -- -j4 -l4
+Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/build/bs_launch -- -j4 -l4
+Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/build/bs_launch
+Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/build/bs_launch

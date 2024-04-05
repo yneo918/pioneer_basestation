@@ -1,0 +1,46 @@
+[0.571s] Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rsl/pioneerbase_ws/src/bs_launch -DCMAKE_INSTALL_PREFIX=/home/rsl/pioneerbase_ws/install/bs_launch
+[4.004s] -- The C compiler identification is GNU 11.4.0
+[6.186s] -- The CXX compiler identification is GNU 11.4.0
+[6.334s] -- Detecting C compiler ABI info
+[6.794s] -- Detecting C compiler ABI info - done
+[6.815s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.816s] -- Detecting C compile features
+[6.843s] -- Detecting C compile features - done
+[6.854s] -- Detecting CXX compiler ABI info
+[7.031s] -- Detecting CXX compiler ABI info - done
+[7.043s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.043s] -- Detecting CXX compile features
+[7.044s] -- Detecting CXX compile features - done
+[7.104s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.568s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.121s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.461s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.464s] -- Added test 'lint_cmake' to check CMake code style
+[8.466s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.469s] -- Added test 'xmllint' to check XML markup files
+[8.478s] -- Configuring done
+[8.487s] -- Generating done
+[8.490s] -- Build files have been written to: /home/rsl/pioneerbase_ws/build/bs_launch
+[8.502s] Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rsl/pioneerbase_ws/src/bs_launch -DCMAKE_INSTALL_PREFIX=/home/rsl/pioneerbase_ws/install/bs_launch
+[8.503s] Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/build/bs_launch -- -j4 -l4
+[8.585s] Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/build/bs_launch -- -j4 -l4
+[8.650s] Invoking command in '/home/rsl/pioneerbase_ws/build/bs_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/build/bs_launch
+[8.668s] -- Install configuration: ""
+[8.669s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch//launch
+[8.669s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch//launch/station.launch.py
+[8.670s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/ament_index/resource_index/package_run_dependencies/bs_launch
+[8.671s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/ament_index/resource_index/parent_prefix_path/bs_launch
+[8.672s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/environment/ament_prefix_path.sh
+[8.676s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/environment/ament_prefix_path.dsv
+[8.677s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/environment/path.sh
+[8.677s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/environment/path.dsv
+[8.677s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/local_setup.bash
+[8.677s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/local_setup.sh
+[8.677s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/local_setup.zsh
+[8.678s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/local_setup.dsv
+[8.678s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.dsv
+[8.678s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/ament_index/resource_index/packages/bs_launch
+[8.678s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/cmake/bs_launchConfig.cmake
+[8.678s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/cmake/bs_launchConfig-version.cmake
+[8.679s] -- Installing: /home/rsl/pioneerbase_ws/install/bs_launch/share/bs_launch/package.xml
+[8.693s] Invoked command in '/home/rsl/pioneerbase_ws/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/build/bs_launch

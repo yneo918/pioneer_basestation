@@ -1,0 +1,39 @@
+[2.114s] Invoking command in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy': PYTHONPATH=/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rover_teleop_joy build --build-base /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build install --record /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/install.log --single-version-externally-managed
+[2.535s] running egg_info
+[2.536s] creating ../build/rover_teleop_joy/rover_teleop_joy.egg-info
+[2.536s] writing ../build/rover_teleop_joy/rover_teleop_joy.egg-info/PKG-INFO
+[2.537s] writing dependency_links to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/dependency_links.txt
+[2.537s] writing entry points to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/entry_points.txt
+[2.537s] writing requirements to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/requires.txt
+[2.538s] writing top-level names to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/top_level.txt
+[2.538s] writing manifest file '../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[2.540s] reading manifest file '../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[2.542s] writing manifest file '../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[2.542s] running build
+[2.542s] running build_py
+[2.543s] creating /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build
+[2.543s] creating /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib
+[2.543s] creating /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy
+[2.544s] copying rover_teleop_joy/run_joy.py -> /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy
+[2.544s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.544s]   warnings.warn(
+[2.544s] copying rover_teleop_joy/__init__.py -> /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy
+[2.544s] running install
+[2.545s] running install_lib
+[2.546s] creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy
+[2.546s] copying /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy/run_joy.py -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy
+[2.546s] copying /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy/__init__.py -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy
+[2.547s] byte-compiling /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy/run_joy.py to run_joy.cpython-310.pyc
+[2.548s] byte-compiling /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy/__init__.py to __init__.cpython-310.pyc
+[2.548s] running install_data
+[2.549s] creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index
+[2.550s] creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index/resource_index
+[2.550s] creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index/resource_index/packages
+[2.550s] copying resource/rover_teleop_joy -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index/resource_index/packages
+[2.550s] copying package.xml -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/rover_teleop_joy
+[2.551s] running install_egg_info
+[2.553s] Copying ../build/rover_teleop_joy/rover_teleop_joy.egg-info to /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy-0.0.0-py3.10.egg-info
+[2.554s] running install_scripts
+[2.585s] Installing rover_joy script to /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/rover_teleop_joy
+[2.585s] writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/install.log'
+[2.627s] Invoked command in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rover_teleop_joy build --build-base /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build install --record /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/install.log --single-version-externally-managed

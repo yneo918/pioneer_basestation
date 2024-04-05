@@ -1,0 +1,26 @@
+[1.678s] Invoking command in '/home/rsl/pioneerbase_ws/src/navigation_core2': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core2/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core2 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core2/build install --record /home/rsl/pioneerbase_ws/build/navigation_core2/install.log --single-version-externally-managed
+[2.216s] running egg_info
+[2.217s] writing ../../build/navigation_core2/navigation_core2.egg-info/PKG-INFO
+[2.218s] writing dependency_links to ../../build/navigation_core2/navigation_core2.egg-info/dependency_links.txt
+[2.218s] writing entry points to ../../build/navigation_core2/navigation_core2.egg-info/entry_points.txt
+[2.219s] writing requirements to ../../build/navigation_core2/navigation_core2.egg-info/requires.txt
+[2.219s] writing top-level names to ../../build/navigation_core2/navigation_core2.egg-info/top_level.txt
+[2.221s] reading manifest file '../../build/navigation_core2/navigation_core2.egg-info/SOURCES.txt'
+[2.224s] writing manifest file '../../build/navigation_core2/navigation_core2.egg-info/SOURCES.txt'
+[2.224s] running build
+[2.224s] running build_py
+[2.229s] copying navigation_core2/waypoint_controller.py -> /home/rsl/pioneerbase_ws/build/navigation_core2/build/lib/navigation_core2
+[2.230s] running install
+[2.230s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.231s]   warnings.warn(
+[2.231s] running install_lib
+[2.232s] copying /home/rsl/pioneerbase_ws/build/navigation_core2/build/lib/navigation_core2/waypoint_controller.py -> /home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages/navigation_core2
+[2.234s] byte-compiling /home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages/navigation_core2/waypoint_controller.py to waypoint_controller.cpython-310.pyc
+[2.236s] running install_data
+[2.236s] running install_egg_info
+[2.239s] removing '/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages/navigation_core2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.240s] Copying ../../build/navigation_core2/navigation_core2.egg-info to /home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages/navigation_core2-0.0.0-py3.10.egg-info
+[2.241s] running install_scripts
+[2.277s] Installing run_navigation script to /home/rsl/pioneerbase_ws/install/navigation_core2/lib/navigation_core2
+[2.278s] writing list of installed files to '/home/rsl/pioneerbase_ws/build/navigation_core2/install.log'
+[2.943s] Invoked command in '/home/rsl/pioneerbase_ws/src/navigation_core2' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core2/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core2 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core2/build install --record /home/rsl/pioneerbase_ws/build/navigation_core2/install.log --single-version-externally-managed

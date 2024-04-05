@@ -1,0 +1,23 @@
+[3.152s] Invoking command in '/home/rsl/pioneerbase_ws/src/mode_select': PYTHONPATH=/home/rsl/pioneerbase_ws/build/mode_select/prefix_override:/home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mode_select build --build-base /home/rsl/pioneerbase_ws/build/mode_select/build install --record /home/rsl/pioneerbase_ws/build/mode_select/install.log --single-version-externally-managed
+[3.813s] running egg_info
+[3.815s] writing ../../build/mode_select/mode_select.egg-info/PKG-INFO
+[3.815s] writing dependency_links to ../../build/mode_select/mode_select.egg-info/dependency_links.txt
+[3.816s] writing entry points to ../../build/mode_select/mode_select.egg-info/entry_points.txt
+[3.816s] writing requirements to ../../build/mode_select/mode_select.egg-info/requires.txt
+[3.817s] writing top-level names to ../../build/mode_select/mode_select.egg-info/top_level.txt
+[3.821s] reading manifest file '../../build/mode_select/mode_select.egg-info/SOURCES.txt'
+[3.823s] writing manifest file '../../build/mode_select/mode_select.egg-info/SOURCES.txt'
+[3.824s] running build
+[3.824s] running build_py
+[3.825s] running install
+[3.825s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.825s]   warnings.warn(
+[3.826s] running install_lib
+[3.829s] running install_data
+[3.830s] running install_egg_info
+[3.834s] removing '/home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages/mode_select-0.0.0-py3.10.egg-info' (and everything under it)
+[3.835s] Copying ../../build/mode_select/mode_select.egg-info to /home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages/mode_select-0.0.0-py3.10.egg-info
+[3.836s] running install_scripts
+[3.885s] Installing mode_select script to /home/rsl/pioneerbase_ws/install/mode_select/lib/mode_select
+[3.886s] writing list of installed files to '/home/rsl/pioneerbase_ws/build/mode_select/install.log'
+[3.969s] Invoked command in '/home/rsl/pioneerbase_ws/src/mode_select' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/mode_select/prefix_override:/home/rsl/pioneerbase_ws/install/mode_select/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mode_select build --build-base /home/rsl/pioneerbase_ws/build/mode_select/build install --record /home/rsl/pioneerbase_ws/build/mode_select/install.log --single-version-externally-managed

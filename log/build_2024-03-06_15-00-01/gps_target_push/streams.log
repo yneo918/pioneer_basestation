@@ -1,0 +1,23 @@
+[3.816s] Invoking command in '/home/rsl/pioneerbase_ws/src/gps_target_push': PYTHONPATH=/home/rsl/pioneerbase_ws/build/gps_target_push/prefix_override:/home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gps_target_push build --build-base /home/rsl/pioneerbase_ws/build/gps_target_push/build install --record /home/rsl/pioneerbase_ws/build/gps_target_push/install.log --single-version-externally-managed
+[4.406s] running egg_info
+[4.407s] writing ../../build/gps_target_push/gps_target_push.egg-info/PKG-INFO
+[4.494s] writing dependency_links to ../../build/gps_target_push/gps_target_push.egg-info/dependency_links.txt
+[4.494s] writing entry points to ../../build/gps_target_push/gps_target_push.egg-info/entry_points.txt
+[4.495s] writing requirements to ../../build/gps_target_push/gps_target_push.egg-info/requires.txt
+[4.495s] writing top-level names to ../../build/gps_target_push/gps_target_push.egg-info/top_level.txt
+[4.498s] reading manifest file '../../build/gps_target_push/gps_target_push.egg-info/SOURCES.txt'
+[4.590s] writing manifest file '../../build/gps_target_push/gps_target_push.egg-info/SOURCES.txt'
+[4.590s] running build
+[4.590s] running build_py
+[4.593s] running install
+[4.593s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.594s]   warnings.warn(
+[4.594s] running install_lib
+[4.651s] running install_data
+[4.653s] running install_egg_info
+[4.657s] removing '/home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages/gps_target_push-0.0.0-py3.10.egg-info' (and everything under it)
+[4.658s] Copying ../../build/gps_target_push/gps_target_push.egg-info to /home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages/gps_target_push-0.0.0-py3.10.egg-info
+[4.660s] running install_scripts
+[4.702s] Installing push_target script to /home/rsl/pioneerbase_ws/install/gps_target_push/lib/gps_target_push
+[4.704s] writing list of installed files to '/home/rsl/pioneerbase_ws/build/gps_target_push/install.log'
+[5.525s] Invoked command in '/home/rsl/pioneerbase_ws/src/gps_target_push' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/gps_target_push/prefix_override:/home/rsl/pioneerbase_ws/install/gps_target_push/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gps_target_push build --build-base /home/rsl/pioneerbase_ws/build/gps_target_push/build install --record /home/rsl/pioneerbase_ws/build/gps_target_push/install.log --single-version-externally-managed

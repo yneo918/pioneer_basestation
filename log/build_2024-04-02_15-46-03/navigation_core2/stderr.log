@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/rsl/pioneerbase_ws/install/navigation_core2/lib/python3.10/site-packages/navigation_core2/waypoint_controller.py", line 15
+    import timesuper().__init__('directions_publisher')
+                    ^
+SyntaxError: invalid syntax
+

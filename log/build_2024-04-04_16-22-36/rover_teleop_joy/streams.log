@@ -1,0 +1,23 @@
+[1.798s] Invoking command in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy': PYTHONPATH=/home/rsl/pioneerbase_ws/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_teleop_joy build --build-base /home/rsl/pioneerbase_ws/build/rover_teleop_joy/build install --record /home/rsl/pioneerbase_ws/build/rover_teleop_joy/install.log --single-version-externally-managed
+[2.180s] running egg_info
+[2.181s] writing ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/PKG-INFO
+[2.181s] writing dependency_links to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/dependency_links.txt
+[2.182s] writing entry points to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/entry_points.txt
+[2.182s] writing requirements to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/requires.txt
+[2.182s] writing top-level names to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/top_level.txt
+[2.184s] reading manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[2.186s] writing manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[2.186s] running build
+[2.186s] running build_py
+[2.187s] running install
+[2.187s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.188s]   warnings.warn(
+[2.188s] running install_lib
+[2.192s] running install_data
+[2.193s] running install_egg_info
+[2.195s] removing '/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy-0.0.0-py3.10.egg-info' (and everything under it)
+[2.196s] Copying ../../build/rover_teleop_joy/rover_teleop_joy.egg-info to /home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy-0.0.0-py3.10.egg-info
+[2.197s] running install_scripts
+[2.228s] Installing rover_joy script to /home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/rover_teleop_joy
+[2.228s] writing list of installed files to '/home/rsl/pioneerbase_ws/build/rover_teleop_joy/install.log'
+[2.274s] Invoked command in '/home/rsl/pioneerbase_ws/src/rover_teleop_joy' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/install/rover_teleop_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_teleop_joy build --build-base /home/rsl/pioneerbase_ws/build/rover_teleop_joy/build install --record /home/rsl/pioneerbase_ws/build/rover_teleop_joy/install.log --single-version-externally-managed

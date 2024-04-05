@@ -1,0 +1,23 @@
+[2.132s] Invoking command in '/home/rsl/pioneerbase_ws/src/navigation_core3': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core3/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core3 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core3/build install --record /home/rsl/pioneerbase_ws/build/navigation_core3/install.log --single-version-externally-managed
+[2.552s] running egg_info
+[2.553s] writing ../../build/navigation_core3/navigation_core3.egg-info/PKG-INFO
+[2.553s] writing dependency_links to ../../build/navigation_core3/navigation_core3.egg-info/dependency_links.txt
+[2.553s] writing entry points to ../../build/navigation_core3/navigation_core3.egg-info/entry_points.txt
+[2.554s] writing requirements to ../../build/navigation_core3/navigation_core3.egg-info/requires.txt
+[2.554s] writing top-level names to ../../build/navigation_core3/navigation_core3.egg-info/top_level.txt
+[2.556s] reading manifest file '../../build/navigation_core3/navigation_core3.egg-info/SOURCES.txt'
+[2.584s] writing manifest file '../../build/navigation_core3/navigation_core3.egg-info/SOURCES.txt'
+[2.584s] running build
+[2.585s] running build_py
+[2.585s] running install
+[2.585s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.585s]   warnings.warn(
+[2.586s] running install_lib
+[2.590s] running install_data
+[2.590s] running install_egg_info
+[2.593s] removing '/home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages/navigation_core3-0.0.0-py3.10.egg-info' (and everything under it)
+[2.593s] Copying ../../build/navigation_core3/navigation_core3.egg-info to /home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages/navigation_core3-0.0.0-py3.10.egg-info
+[2.595s] running install_scripts
+[2.626s] Installing run_navigation script to /home/rsl/pioneerbase_ws/install/navigation_core3/lib/navigation_core3
+[2.626s] writing list of installed files to '/home/rsl/pioneerbase_ws/build/navigation_core3/install.log'
+[2.663s] Invoked command in '/home/rsl/pioneerbase_ws/src/navigation_core3' returned '0': PYTHONPATH=/home/rsl/pioneerbase_ws/build/navigation_core3/prefix_override:/home/rsl/pioneerbase_ws/install/navigation_core3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core3 build --build-base /home/rsl/pioneerbase_ws/build/navigation_core3/build install --record /home/rsl/pioneerbase_ws/build/navigation_core3/install.log --single-version-externally-managed

@@ -1,0 +1,390 @@
+[0.000000] (-) TimerEvent: {}
+[0.000357] (bs_launch) JobQueued: {'identifier': 'bs_launch', 'dependencies': OrderedDict()}
+[0.001378] (gps_target_push) JobQueued: {'identifier': 'gps_target_push', 'dependencies': OrderedDict()}
+[0.001666] (mode_select) JobQueued: {'identifier': 'mode_select', 'dependencies': OrderedDict()}
+[0.001859] (navigation_core1) JobQueued: {'identifier': 'navigation_core1', 'dependencies': OrderedDict()}
+[0.001915] (navigation_core2) JobQueued: {'identifier': 'navigation_core2', 'dependencies': OrderedDict()}
+[0.001971] (navigation_core3) JobQueued: {'identifier': 'navigation_core3', 'dependencies': OrderedDict()}
+[0.002054] (rover_teleop_joy) JobQueued: {'identifier': 'rover_teleop_joy', 'dependencies': OrderedDict()}
+[0.002104] (bs_launch) JobStarted: {'identifier': 'bs_launch'}
+[0.099561] (-) TimerEvent: {}
+[0.200133] (-) TimerEvent: {}
+[0.301779] (-) TimerEvent: {}
+[0.398799] (gps_target_push) JobStarted: {'identifier': 'gps_target_push'}
+[0.402035] (-) TimerEvent: {}
+[0.502499] (-) TimerEvent: {}
+[0.526634] (mode_select) JobStarted: {'identifier': 'mode_select'}
+[0.602647] (-) TimerEvent: {}
+[0.628952] (navigation_core1) JobStarted: {'identifier': 'navigation_core1'}
+[0.702914] (-) TimerEvent: {}
+[0.803490] (-) TimerEvent: {}
+[0.903897] (-) TimerEvent: {}
+[1.004309] (-) TimerEvent: {}
+[1.104820] (-) TimerEvent: {}
+[1.205636] (-) TimerEvent: {}
+[1.306277] (-) TimerEvent: {}
+[1.406628] (-) TimerEvent: {}
+[1.506968] (-) TimerEvent: {}
+[1.607311] (-) TimerEvent: {}
+[1.707681] (-) TimerEvent: {}
+[1.808235] (-) TimerEvent: {}
+[1.908574] (-) TimerEvent: {}
+[2.008917] (-) TimerEvent: {}
+[2.109351] (-) TimerEvent: {}
+[2.209892] (-) TimerEvent: {}
+[2.310583] (-) TimerEvent: {}
+[2.410934] (-) TimerEvent: {}
+[2.511285] (-) TimerEvent: {}
+[2.611871] (-) TimerEvent: {}
+[2.712648] (-) TimerEvent: {}
+[2.813788] (-) TimerEvent: {}
+[2.914206] (-) TimerEvent: {}
+[3.014642] (-) TimerEvent: {}
+[3.115080] (-) TimerEvent: {}
+[3.215498] (-) TimerEvent: {}
+[3.315936] (-) TimerEvent: {}
+[3.416618] (-) TimerEvent: {}
+[3.517063] (-) TimerEvent: {}
+[3.617567] (-) TimerEvent: {}
+[3.718178] (-) TimerEvent: {}
+[3.819025] (-) TimerEvent: {}
+[3.919891] (-) TimerEvent: {}
+[4.020780] (-) TimerEvent: {}
+[4.121534] (-) TimerEvent: {}
+[4.222410] (-) TimerEvent: {}
+[4.323020] (-) TimerEvent: {}
+[4.423575] (-) TimerEvent: {}
+[4.471689] (mode_select) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/mode_select', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/mode_select/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/mode_select/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/mode_select', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/mode_select', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/mode_select/prefix_override:/home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.476681] (gps_target_push) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/gps_target_push', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/gps_target_push/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/gps_target_push/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/gps_target_push', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/gps_target_push', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/gps_target_push/prefix_override:/home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.479678] (bs_launch) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/bs_launch', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/bs_launch/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/bs_launch/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/bs_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/bs_launch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/bs_launch/prefix_override:/home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.484136] (navigation_core1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/navigation_core1', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/navigation_core1/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/navigation_core1/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/navigation_core1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/navigation_core1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/navigation_core1/prefix_override:/home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.523673] (-) TimerEvent: {}
+[4.624246] (-) TimerEvent: {}
+[4.724796] (-) TimerEvent: {}
+[4.825332] (-) TimerEvent: {}
+[4.925896] (-) TimerEvent: {}
+[5.026343] (-) TimerEvent: {}
+[5.126796] (-) TimerEvent: {}
+[5.139860] (navigation_core1) StdoutLine: {'line': b'running egg_info\n'}
+[5.141671] (navigation_core1) StdoutLine: {'line': b'creating ../build/navigation_core1/navigation_core1.egg-info\n'}
+[5.142049] (navigation_core1) StdoutLine: {'line': b'writing ../build/navigation_core1/navigation_core1.egg-info/PKG-INFO\n'}
+[5.142513] (navigation_core1) StdoutLine: {'line': b'writing dependency_links to ../build/navigation_core1/navigation_core1.egg-info/dependency_links.txt\n'}
+[5.142818] (navigation_core1) StdoutLine: {'line': b'writing entry points to ../build/navigation_core1/navigation_core1.egg-info/entry_points.txt\n'}
+[5.143111] (navigation_core1) StdoutLine: {'line': b'writing requirements to ../build/navigation_core1/navigation_core1.egg-info/requires.txt\n'}
+[5.143416] (navigation_core1) StdoutLine: {'line': b'writing top-level names to ../build/navigation_core1/navigation_core1.egg-info/top_level.txt\n'}
+[5.144005] (navigation_core1) StdoutLine: {'line': b"writing manifest file '../build/navigation_core1/navigation_core1.egg-info/SOURCES.txt'\n"}
+[5.148534] (gps_target_push) StdoutLine: {'line': b'running egg_info\n'}
+[5.150048] (gps_target_push) StdoutLine: {'line': b'creating ../build/gps_target_push/gps_target_push.egg-info\n'}
+[5.150513] (gps_target_push) StdoutLine: {'line': b'writing ../build/gps_target_push/gps_target_push.egg-info/PKG-INFO\n'}
+[5.151022] (gps_target_push) StdoutLine: {'line': b'writing dependency_links to ../build/gps_target_push/gps_target_push.egg-info/dependency_links.txt\n'}
+[5.151359] (gps_target_push) StdoutLine: {'line': b'writing entry points to ../build/gps_target_push/gps_target_push.egg-info/entry_points.txt\n'}
+[5.151672] (gps_target_push) StdoutLine: {'line': b'writing requirements to ../build/gps_target_push/gps_target_push.egg-info/requires.txt\n'}
+[5.151955] (gps_target_push) StdoutLine: {'line': b'writing top-level names to ../build/gps_target_push/gps_target_push.egg-info/top_level.txt\n'}
+[5.152570] (gps_target_push) StdoutLine: {'line': b"writing manifest file '../build/gps_target_push/gps_target_push.egg-info/SOURCES.txt'\n"}
+[5.156683] (gps_target_push) StdoutLine: {'line': b"reading manifest file '../build/gps_target_push/gps_target_push.egg-info/SOURCES.txt'\n"}
+[5.157877] (gps_target_push) StdoutLine: {'line': b"writing manifest file '../build/gps_target_push/gps_target_push.egg-info/SOURCES.txt'\n"}
+[5.158262] (gps_target_push) StdoutLine: {'line': b'running build\n'}
+[5.158519] (gps_target_push) StdoutLine: {'line': b'running build_py\n'}
+[5.158880] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/gps_target_push/build\n'}
+[5.159117] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/gps_target_push/build/lib\n'}
+[5.159368] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/gps_target_push/build/lib/gps_target_push\n'}
+[5.159591] (gps_target_push) StdoutLine: {'line': b'copying gps_target_push/test_position.py -> /home/rsl/pioneerbase_ws/src/build/gps_target_push/build/lib/gps_target_push\n'}
+[5.159834] (gps_target_push) StdoutLine: {'line': b'copying gps_target_push/__init__.py -> /home/rsl/pioneerbase_ws/src/build/gps_target_push/build/lib/gps_target_push\n'}
+[5.159996] (gps_target_push) StdoutLine: {'line': b'running install\n'}
+[5.161835] (navigation_core1) StdoutLine: {'line': b"reading manifest file '../build/navigation_core1/navigation_core1.egg-info/SOURCES.txt'\n"}
+[5.164913] (navigation_core1) StdoutLine: {'line': b"writing manifest file '../build/navigation_core1/navigation_core1.egg-info/SOURCES.txt'\n"}
+[5.165141] (navigation_core1) StdoutLine: {'line': b'running build\n'}
+[5.165265] (navigation_core1) StdoutLine: {'line': b'running build_py\n'}
+[5.165437] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core1/build\n'}
+[5.165557] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core1/build/lib\n'}
+[5.165669] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core1/build/lib/navigation_core1\n'}
+[5.165780] (navigation_core1) StdoutLine: {'line': b'copying navigation_core1/waypoint_controller.py -> /home/rsl/pioneerbase_ws/src/build/navigation_core1/build/lib/navigation_core1\n'}
+[5.165948] (navigation_core1) StdoutLine: {'line': b'copying navigation_core1/__init__.py -> /home/rsl/pioneerbase_ws/src/build/navigation_core1/build/lib/navigation_core1\n'}
+[5.166059] (mode_select) StdoutLine: {'line': b'running egg_info\n'}
+[5.166196] (navigation_core1) StdoutLine: {'line': b'running install\n'}
+[5.166671] (mode_select) StdoutLine: {'line': b'creating ../build/mode_select/mode_select.egg-info\n'}
+[5.166804] (mode_select) StdoutLine: {'line': b'writing ../build/mode_select/mode_select.egg-info/PKG-INFO\n'}
+[5.167014] (mode_select) StdoutLine: {'line': b'writing dependency_links to ../build/mode_select/mode_select.egg-info/dependency_links.txt\n'}
+[5.167133] (mode_select) StdoutLine: {'line': b'writing entry points to ../build/mode_select/mode_select.egg-info/entry_points.txt\n'}
+[5.167252] (mode_select) StdoutLine: {'line': b'writing requirements to ../build/mode_select/mode_select.egg-info/requires.txt\n'}
+[5.167360] (mode_select) StdoutLine: {'line': b'writing top-level names to ../build/mode_select/mode_select.egg-info/top_level.txt\n'}
+[5.167533] (mode_select) StdoutLine: {'line': b"writing manifest file '../build/mode_select/mode_select.egg-info/SOURCES.txt'\n"}
+[5.168516] (bs_launch) StdoutLine: {'line': b'running egg_info\n'}
+[5.170058] (bs_launch) StdoutLine: {'line': b'creating ../build/bs_launch/bs_launch.egg-info\n'}
+[5.170451] (bs_launch) StdoutLine: {'line': b'writing ../build/bs_launch/bs_launch.egg-info/PKG-INFO\n'}
+[5.170867] (bs_launch) StdoutLine: {'line': b'writing dependency_links to ../build/bs_launch/bs_launch.egg-info/dependency_links.txt\n'}
+[5.171092] (bs_launch) StdoutLine: {'line': b'writing entry points to ../build/bs_launch/bs_launch.egg-info/entry_points.txt\n'}
+[5.171291] (mode_select) StdoutLine: {'line': b"reading manifest file '../build/mode_select/mode_select.egg-info/SOURCES.txt'\n"}
+[5.171486] (bs_launch) StdoutLine: {'line': b'writing requirements to ../build/bs_launch/bs_launch.egg-info/requires.txt\n'}
+[5.171597] (bs_launch) StdoutLine: {'line': b'writing top-level names to ../build/bs_launch/bs_launch.egg-info/top_level.txt\n'}
+[5.171942] (bs_launch) StdoutLine: {'line': b"writing manifest file '../build/bs_launch/bs_launch.egg-info/SOURCES.txt'\n"}
+[5.172894] (mode_select) StdoutLine: {'line': b"writing manifest file '../build/mode_select/mode_select.egg-info/SOURCES.txt'\n"}
+[5.173082] (mode_select) StdoutLine: {'line': b'running build\n'}
+[5.173246] (mode_select) StdoutLine: {'line': b'running build_py\n'}
+[5.173519] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/mode_select/build\n'}
+[5.173698] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/mode_select/build/lib\n'}
+[5.173868] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/mode_select/build/lib/mode_select\n'}
+[5.174031] (mode_select) StdoutLine: {'line': b'copying mode_select/__init__.py -> /home/rsl/pioneerbase_ws/src/build/mode_select/build/lib/mode_select\n'}
+[5.174205] (mode_select) StdoutLine: {'line': b'copying mode_select/mode_select.py -> /home/rsl/pioneerbase_ws/src/build/mode_select/build/lib/mode_select\n'}
+[5.174634] (mode_select) StdoutLine: {'line': b'running install\n'}
+[5.175184] (bs_launch) StdoutLine: {'line': b"reading manifest file '../build/bs_launch/bs_launch.egg-info/SOURCES.txt'\n"}
+[5.176115] (bs_launch) StdoutLine: {'line': b"writing manifest file '../build/bs_launch/bs_launch.egg-info/SOURCES.txt'\n"}
+[5.176388] (bs_launch) StdoutLine: {'line': b'running build\n'}
+[5.176510] (bs_launch) StdoutLine: {'line': b'running build_py\n'}
+[5.176720] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/bs_launch/build\n'}
+[5.176866] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/bs_launch/build/lib\n'}
+[5.177012] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/bs_launch/build/lib/bs_launch\n'}
+[5.177120] (bs_launch) StdoutLine: {'line': b'copying bs_launch/launch.py -> /home/rsl/pioneerbase_ws/src/build/bs_launch/build/lib/bs_launch\n'}
+[5.177278] (bs_launch) StdoutLine: {'line': b'copying bs_launch/__init__.py -> /home/rsl/pioneerbase_ws/src/build/bs_launch/build/lib/bs_launch\n'}
+[5.177387] (bs_launch) StdoutLine: {'line': b'running install\n'}
+[5.201811] (navigation_core1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.202152] (navigation_core1) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.202372] (bs_launch) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.210474] (bs_launch) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.210739] (gps_target_push) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.210977] (gps_target_push) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.211224] (mode_select) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.211434] (mode_select) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.211624] (bs_launch) StdoutLine: {'line': b'running install_lib\n'}
+[5.211897] (navigation_core1) StdoutLine: {'line': b'running install_lib\n'}
+[5.212100] (mode_select) StdoutLine: {'line': b'running install_lib\n'}
+[5.212321] (gps_target_push) StdoutLine: {'line': b'running install_lib\n'}
+[5.212526] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages/bs_launch\n'}
+[5.212718] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages/mode_select\n'}
+[5.212912] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages/navigation_core1\n'}
+[5.213114] (bs_launch) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/bs_launch/build/lib/bs_launch/launch.py -> /home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages/bs_launch\n'}
+[5.213309] (navigation_core1) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/navigation_core1/build/lib/navigation_core1/waypoint_controller.py -> /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages/navigation_core1\n'}
+[5.213500] (mode_select) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/mode_select/build/lib/mode_select/__init__.py -> /home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages/mode_select\n'}
+[5.213695] (bs_launch) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/bs_launch/build/lib/bs_launch/__init__.py -> /home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages/bs_launch\n'}
+[5.213886] (navigation_core1) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/navigation_core1/build/lib/navigation_core1/__init__.py -> /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages/navigation_core1\n'}
+[5.214076] (mode_select) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/mode_select/build/lib/mode_select/mode_select.py -> /home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages/mode_select\n'}
+[5.214264] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages/gps_target_push\n'}
+[5.214456] (gps_target_push) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/gps_target_push/build/lib/gps_target_push/test_position.py -> /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages/gps_target_push\n'}
+[5.214647] (gps_target_push) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/gps_target_push/build/lib/gps_target_push/__init__.py -> /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages/gps_target_push\n'}
+[5.214842] (navigation_core1) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages/navigation_core1/waypoint_controller.py to waypoint_controller.cpython-310.pyc\n'}
+[5.215032] (bs_launch) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages/bs_launch/launch.py to launch.cpython-310.pyc\n'}
+[5.215225] (mode_select) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages/mode_select/__init__.py to __init__.cpython-310.pyc\n'}
+[5.215439] (mode_select) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages/mode_select/mode_select.py to mode_select.cpython-310.pyc\n'}
+[5.215631] (bs_launch) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages/bs_launch/__init__.py to __init__.cpython-310.pyc\n'}
+[5.215821] (gps_target_push) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages/gps_target_push/test_position.py to test_position.cpython-310.pyc\n'}
+[5.216022] (bs_launch) StdoutLine: {'line': b'running install_data\n'}
+[5.216231] (gps_target_push) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages/gps_target_push/__init__.py to __init__.cpython-310.pyc\n'}
+[5.216432] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index\n'}
+[5.216619] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index/resource_index\n'}
+[5.216812] (bs_launch) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index/resource_index/packages\n'}
+[5.216996] (bs_launch) StdoutLine: {'line': b'copying resource/bs_launch -> /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index/resource_index/packages\n'}
+[5.217189] (navigation_core1) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages/navigation_core1/__init__.py to __init__.cpython-310.pyc\n'}
+[5.217381] (gps_target_push) StdoutLine: {'line': b'running install_data\n'}
+[5.217574] (bs_launch) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch\n'}
+[5.217760] (navigation_core1) StdoutLine: {'line': b'running install_data\n'}
+[5.218098] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core1/share/ament_index\n'}
+[5.218296] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core1/share/ament_index/resource_index\n'}
+[5.218489] (navigation_core1) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core1/share/ament_index/resource_index/packages\n'}
+[5.218672] (navigation_core1) StdoutLine: {'line': b'copying resource/navigation_core1 -> /home/rsl/pioneerbase_ws/src/install/navigation_core1/share/ament_index/resource_index/packages\n'}
+[5.218857] (navigation_core1) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/navigation_core1/share/navigation_core1\n'}
+[5.219043] (navigation_core1) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.219233] (navigation_core1) StdoutLine: {'line': b'Copying ../build/navigation_core1/navigation_core1.egg-info to /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/python3.10/site-packages/navigation_core1-0.0.0-py3.10.egg-info\n'}
+[5.219419] (bs_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.219603] (bs_launch) StdoutLine: {'line': b'Copying ../build/bs_launch/bs_launch.egg-info to /home/rsl/pioneerbase_ws/src/install/bs_launch/lib/python3.10/site-packages/bs_launch-0.0.0-py3.10.egg-info\n'}
+[5.219791] (bs_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[5.219981] (mode_select) StdoutLine: {'line': b'running install_data\n'}
+[5.220192] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/mode_select/share/ament_index\n'}
+[5.220385] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/mode_select/share/ament_index/resource_index\n'}
+[5.220565] (mode_select) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/mode_select/share/ament_index/resource_index/packages\n'}
+[5.220769] (mode_select) StdoutLine: {'line': b'copying resource/mode_select -> /home/rsl/pioneerbase_ws/src/install/mode_select/share/ament_index/resource_index/packages\n'}
+[5.220969] (mode_select) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/mode_select/share/mode_select\n'}
+[5.221144] (mode_select) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.221309] (mode_select) StdoutLine: {'line': b'Copying ../build/mode_select/mode_select.egg-info to /home/rsl/pioneerbase_ws/src/install/mode_select/lib/python3.10/site-packages/mode_select-0.0.0-py3.10.egg-info\n'}
+[5.221476] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/gps_target_push/share/ament_index\n'}
+[5.221651] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/gps_target_push/share/ament_index/resource_index\n'}
+[5.221817] (gps_target_push) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/gps_target_push/share/ament_index/resource_index/packages\n'}
+[5.221987] (gps_target_push) StdoutLine: {'line': b'copying resource/gps_target_push -> /home/rsl/pioneerbase_ws/src/install/gps_target_push/share/ament_index/resource_index/packages\n'}
+[5.222169] (gps_target_push) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/gps_target_push/share/gps_target_push\n'}
+[5.222354] (gps_target_push) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.222530] (gps_target_push) StdoutLine: {'line': b'Copying ../build/gps_target_push/gps_target_push.egg-info to /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/python3.10/site-packages/gps_target_push-0.0.0-py3.10.egg-info\n'}
+[5.222715] (mode_select) StdoutLine: {'line': b'running install_scripts\n'}
+[5.222902] (gps_target_push) StdoutLine: {'line': b'running install_scripts\n'}
+[5.229768] (navigation_core1) StdoutLine: {'line': b'running install_scripts\n'}
+[5.230060] (-) TimerEvent: {}
+[5.258061] (bs_launch) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/bs_launch/install.log'\n"}
+[5.260977] (mode_select) StdoutLine: {'line': b'Installing mode_select script to /home/rsl/pioneerbase_ws/src/install/mode_select/lib/mode_select\n'}
+[5.261918] (mode_select) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/mode_select/install.log'\n"}
+[5.264312] (gps_target_push) StdoutLine: {'line': b'Installing push_target script to /home/rsl/pioneerbase_ws/src/install/gps_target_push/lib/gps_target_push\n'}
+[5.265282] (gps_target_push) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/gps_target_push/install.log'\n"}
+[5.279736] (navigation_core1) StdoutLine: {'line': b'Installing run_navigation script to /home/rsl/pioneerbase_ws/src/install/navigation_core1/lib/navigation_core1\n'}
+[5.281156] (navigation_core1) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/navigation_core1/install.log'\n"}
+[5.330284] (-) TimerEvent: {}
+[5.339787] (mode_select) CommandEnded: {'returncode': 0}
+[5.430460] (-) TimerEvent: {}
+[5.531315] (-) TimerEvent: {}
+[5.632344] (-) TimerEvent: {}
+[5.733012] (-) TimerEvent: {}
+[5.833844] (-) TimerEvent: {}
+[5.843375] (mode_select) JobEnded: {'identifier': 'mode_select', 'rc': 0}
+[5.846884] (navigation_core2) JobStarted: {'identifier': 'navigation_core2'}
+[5.933983] (-) TimerEvent: {}
+[5.998307] (bs_launch) CommandEnded: {'returncode': 0}
+[6.034128] (-) TimerEvent: {}
+[6.086605] (bs_launch) JobEnded: {'identifier': 'bs_launch', 'rc': 0}
+[6.088765] (gps_target_push) CommandEnded: {'returncode': 0}
+[6.134514] (-) TimerEvent: {}
+[6.171011] (gps_target_push) JobEnded: {'identifier': 'gps_target_push', 'rc': 0}
+[6.173823] (navigation_core3) JobStarted: {'identifier': 'navigation_core3'}
+[6.234685] (-) TimerEvent: {}
+[6.278802] (rover_teleop_joy) JobStarted: {'identifier': 'rover_teleop_joy'}
+[6.334876] (-) TimerEvent: {}
+[6.381137] (navigation_core1) CommandEnded: {'returncode': 0}
+[6.435092] (-) TimerEvent: {}
+[6.460276] (navigation_core1) JobEnded: {'identifier': 'navigation_core1', 'rc': 0}
+[6.535222] (-) TimerEvent: {}
+[6.635582] (-) TimerEvent: {}
+[6.735970] (-) TimerEvent: {}
+[6.836421] (-) TimerEvent: {}
+[6.936884] (-) TimerEvent: {}
+[7.037264] (-) TimerEvent: {}
+[7.137599] (-) TimerEvent: {}
+[7.237935] (-) TimerEvent: {}
+[7.338296] (-) TimerEvent: {}
+[7.438950] (-) TimerEvent: {}
+[7.539299] (-) TimerEvent: {}
+[7.639621] (-) TimerEvent: {}
+[7.739961] (-) TimerEvent: {}
+[7.840750] (-) TimerEvent: {}
+[7.941319] (-) TimerEvent: {}
+[8.041866] (-) TimerEvent: {}
+[8.142410] (-) TimerEvent: {}
+[8.242956] (-) TimerEvent: {}
+[8.343520] (-) TimerEvent: {}
+[8.390706] (rover_teleop_joy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/rover_teleop_joy', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/rover_teleop_joy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/prefix_override:/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.443646] (-) TimerEvent: {}
+[8.544219] (-) TimerEvent: {}
+[8.645042] (-) TimerEvent: {}
+[8.690559] (navigation_core2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/navigation_core2', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/navigation_core2/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/navigation_core2/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/navigation_core2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/navigation_core2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/navigation_core2/prefix_override:/home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.694663] (navigation_core3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/navigation_core3', 'build', '--build-base', '/home/rsl/pioneerbase_ws/src/build/navigation_core3/build', 'install', '--record', '/home/rsl/pioneerbase_ws/src/build/navigation_core3/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/pioneerbase_ws/src/navigation_core3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/pioneerbase_ws/src/bs_launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rsl-ThinkPad-T530:@/tmp/.ICE-unix/1555,unix/rsl-ThinkPad-T530:/tmp/.ICE-unix/1555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffc5ebc2_cfe8_4f31_88f9_dfecbe4f8ee8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8VBVI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.285', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/pioneerbase_ws/src/build/navigation_core3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/pioneerbase_ws/src/build/navigation_core3/prefix_override:/home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.745170] (-) TimerEvent: {}
+[8.813540] (rover_teleop_joy) StdoutLine: {'line': b'running egg_info\n'}
+[8.814658] (rover_teleop_joy) StdoutLine: {'line': b'creating ../build/rover_teleop_joy/rover_teleop_joy.egg-info\n'}
+[8.815052] (rover_teleop_joy) StdoutLine: {'line': b'writing ../build/rover_teleop_joy/rover_teleop_joy.egg-info/PKG-INFO\n'}
+[8.815483] (rover_teleop_joy) StdoutLine: {'line': b'writing dependency_links to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/dependency_links.txt\n'}
+[8.815798] (rover_teleop_joy) StdoutLine: {'line': b'writing entry points to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/entry_points.txt\n'}
+[8.816175] (rover_teleop_joy) StdoutLine: {'line': b'writing requirements to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/requires.txt\n'}
+[8.816382] (rover_teleop_joy) StdoutLine: {'line': b'writing top-level names to ../build/rover_teleop_joy/rover_teleop_joy.egg-info/top_level.txt\n'}
+[8.816667] (rover_teleop_joy) StdoutLine: {'line': b"writing manifest file '../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'\n"}
+[8.819064] (rover_teleop_joy) StdoutLine: {'line': b"reading manifest file '../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'\n"}
+[8.820246] (rover_teleop_joy) StdoutLine: {'line': b"writing manifest file '../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'\n"}
+[8.820653] (rover_teleop_joy) StdoutLine: {'line': b'running build\n'}
+[8.820961] (rover_teleop_joy) StdoutLine: {'line': b'running build_py\n'}
+[8.821315] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build\n'}
+[8.821668] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib\n'}
+[8.821893] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy\n'}
+[8.822139] (rover_teleop_joy) StdoutLine: {'line': b'copying rover_teleop_joy/run_joy.py -> /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy\n'}
+[8.822456] (rover_teleop_joy) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.822675] (rover_teleop_joy) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.822888] (rover_teleop_joy) StdoutLine: {'line': b'copying rover_teleop_joy/__init__.py -> /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy\n'}
+[8.823118] (rover_teleop_joy) StdoutLine: {'line': b'running install\n'}
+[8.823299] (rover_teleop_joy) StdoutLine: {'line': b'running install_lib\n'}
+[8.824235] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy\n'}
+[8.824609] (rover_teleop_joy) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy/run_joy.py -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy\n'}
+[8.824867] (rover_teleop_joy) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/build/lib/rover_teleop_joy/__init__.py -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy\n'}
+[8.825759] (rover_teleop_joy) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy/run_joy.py to run_joy.cpython-310.pyc\n'}
+[8.826760] (rover_teleop_joy) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy/__init__.py to __init__.cpython-310.pyc\n'}
+[8.827104] (rover_teleop_joy) StdoutLine: {'line': b'running install_data\n'}
+[8.827966] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index\n'}
+[8.828417] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index/resource_index\n'}
+[8.828772] (rover_teleop_joy) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index/resource_index/packages\n'}
+[8.828963] (rover_teleop_joy) StdoutLine: {'line': b'copying resource/rover_teleop_joy -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/ament_index/resource_index/packages\n'}
+[8.829148] (rover_teleop_joy) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/share/rover_teleop_joy\n'}
+[8.829337] (rover_teleop_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.831417] (rover_teleop_joy) StdoutLine: {'line': b'Copying ../build/rover_teleop_joy/rover_teleop_joy.egg-info to /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/python3.10/site-packages/rover_teleop_joy-0.0.0-py3.10.egg-info\n'}
+[8.832921] (rover_teleop_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[8.845273] (-) TimerEvent: {}
+[8.863288] (rover_teleop_joy) StdoutLine: {'line': b'Installing rover_joy script to /home/rsl/pioneerbase_ws/src/install/rover_teleop_joy/lib/rover_teleop_joy\n'}
+[8.863837] (rover_teleop_joy) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/rover_teleop_joy/install.log'\n"}
+[8.905046] (rover_teleop_joy) CommandEnded: {'returncode': 0}
+[8.945854] (-) TimerEvent: {}
+[8.991526] (rover_teleop_joy) JobEnded: {'identifier': 'rover_teleop_joy', 'rc': 0}
+[9.045971] (-) TimerEvent: {}
+[9.146301] (-) TimerEvent: {}
+[9.246667] (-) TimerEvent: {}
+[9.252108] (navigation_core2) StdoutLine: {'line': b'running egg_info\n'}
+[9.253775] (navigation_core2) StdoutLine: {'line': b'creating ../build/navigation_core2/navigation_core2.egg-info\n'}
+[9.254165] (navigation_core2) StdoutLine: {'line': b'writing ../build/navigation_core2/navigation_core2.egg-info/PKG-INFO\n'}
+[9.254616] (navigation_core2) StdoutLine: {'line': b'writing dependency_links to ../build/navigation_core2/navigation_core2.egg-info/dependency_links.txt\n'}
+[9.254839] (navigation_core2) StdoutLine: {'line': b'writing entry points to ../build/navigation_core2/navigation_core2.egg-info/entry_points.txt\n'}
+[9.255079] (navigation_core2) StdoutLine: {'line': b'writing requirements to ../build/navigation_core2/navigation_core2.egg-info/requires.txt\n'}
+[9.255295] (navigation_core2) StdoutLine: {'line': b'writing top-level names to ../build/navigation_core2/navigation_core2.egg-info/top_level.txt\n'}
+[9.255689] (navigation_core2) StdoutLine: {'line': b"writing manifest file '../build/navigation_core2/navigation_core2.egg-info/SOURCES.txt'\n"}
+[9.259202] (navigation_core2) StdoutLine: {'line': b"reading manifest file '../build/navigation_core2/navigation_core2.egg-info/SOURCES.txt'\n"}
+[9.260917] (navigation_core2) StdoutLine: {'line': b"writing manifest file '../build/navigation_core2/navigation_core2.egg-info/SOURCES.txt'\n"}
+[9.261190] (navigation_core2) StdoutLine: {'line': b'running build\n'}
+[9.261314] (navigation_core2) StdoutLine: {'line': b'running build_py\n'}
+[9.261542] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core2/build\n'}
+[9.261728] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core2/build/lib\n'}
+[9.261888] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core2/build/lib/navigation_core2\n'}
+[9.262002] (navigation_core2) StdoutLine: {'line': b'copying navigation_core2/waypoint_controller.py -> /home/rsl/pioneerbase_ws/src/build/navigation_core2/build/lib/navigation_core2\n'}
+[9.288132] (navigation_core3) StdoutLine: {'line': b'running egg_info\n'}
+[9.289198] (navigation_core3) StdoutLine: {'line': b'creating ../build/navigation_core3/navigation_core3.egg-info\n'}
+[9.289477] (navigation_core3) StdoutLine: {'line': b'writing ../build/navigation_core3/navigation_core3.egg-info/PKG-INFO\n'}
+[9.289826] (navigation_core3) StdoutLine: {'line': b'writing dependency_links to ../build/navigation_core3/navigation_core3.egg-info/dependency_links.txt\n'}
+[9.290053] (navigation_core3) StdoutLine: {'line': b'writing entry points to ../build/navigation_core3/navigation_core3.egg-info/entry_points.txt\n'}
+[9.290252] (navigation_core3) StdoutLine: {'line': b'writing requirements to ../build/navigation_core3/navigation_core3.egg-info/requires.txt\n'}
+[9.290447] (navigation_core3) StdoutLine: {'line': b'writing top-level names to ../build/navigation_core3/navigation_core3.egg-info/top_level.txt\n'}
+[9.290626] (navigation_core3) StdoutLine: {'line': b"writing manifest file '../build/navigation_core3/navigation_core3.egg-info/SOURCES.txt'\n"}
+[9.292772] (navigation_core3) StdoutLine: {'line': b"reading manifest file '../build/navigation_core3/navigation_core3.egg-info/SOURCES.txt'\n"}
+[9.293774] (navigation_core3) StdoutLine: {'line': b"writing manifest file '../build/navigation_core3/navigation_core3.egg-info/SOURCES.txt'\n"}
+[9.294015] (navigation_core3) StdoutLine: {'line': b'running build\n'}
+[9.294178] (navigation_core3) StdoutLine: {'line': b'running build_py\n'}
+[9.294440] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core3/build\n'}
+[9.294872] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core3/build/lib\n'}
+[9.295164] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/build/navigation_core3/build/lib/navigation_core3\n'}
+[9.295440] (navigation_core3) StdoutLine: {'line': b'copying navigation_core3/waypoint_controller.py -> /home/rsl/pioneerbase_ws/src/build/navigation_core3/build/lib/navigation_core3\n'}
+[9.346903] (-) TimerEvent: {}
+[9.351502] (navigation_core2) StdoutLine: {'line': b'copying navigation_core2/__init__.py -> /home/rsl/pioneerbase_ws/src/build/navigation_core2/build/lib/navigation_core2\n'}
+[9.351845] (navigation_core2) StdoutLine: {'line': b'running install\n'}
+[9.352103] (navigation_core2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.352296] (navigation_core2) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.352627] (navigation_core2) StdoutLine: {'line': b'running install_lib\n'}
+[9.353632] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages/navigation_core2\n'}
+[9.353915] (navigation_core2) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/navigation_core2/build/lib/navigation_core2/waypoint_controller.py -> /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages/navigation_core2\n'}
+[9.354125] (navigation_core2) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/navigation_core2/build/lib/navigation_core2/__init__.py -> /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages/navigation_core2\n'}
+[9.354682] (navigation_core2) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages/navigation_core2/waypoint_controller.py to waypoint_controller.cpython-310.pyc\n'}
+[9.356108] (navigation_core3) StdoutLine: {'line': b'copying navigation_core3/__init__.py -> /home/rsl/pioneerbase_ws/src/build/navigation_core3/build/lib/navigation_core3\n'}
+[9.356384] (navigation_core2) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages/navigation_core2/__init__.py to __init__.cpython-310.pyc\n'}
+[9.356598] (navigation_core3) StdoutLine: {'line': b'running install\n'}
+[9.356836] (navigation_core2) StdoutLine: {'line': b'running install_data\n'}
+[9.356955] (navigation_core3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.357090] (navigation_core3) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.357482] (navigation_core3) StdoutLine: {'line': b'running install_lib\n'}
+[9.357733] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core2/share/ament_index\n'}
+[9.358003] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core2/share/ament_index/resource_index\n'}
+[9.358197] (navigation_core2) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core2/share/ament_index/resource_index/packages\n'}
+[9.358363] (navigation_core2) StdoutLine: {'line': b'copying resource/navigation_core2 -> /home/rsl/pioneerbase_ws/src/install/navigation_core2/share/ament_index/resource_index/packages\n'}
+[9.358530] (navigation_core2) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/navigation_core2/share/navigation_core2\n'}
+[9.358645] (navigation_core2) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.358951] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages/navigation_core3\n'}
+[9.359137] (navigation_core3) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/navigation_core3/build/lib/navigation_core3/waypoint_controller.py -> /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages/navigation_core3\n'}
+[9.359371] (navigation_core3) StdoutLine: {'line': b'copying /home/rsl/pioneerbase_ws/src/build/navigation_core3/build/lib/navigation_core3/__init__.py -> /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages/navigation_core3\n'}
+[9.360462] (navigation_core3) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages/navigation_core3/waypoint_controller.py to waypoint_controller.cpython-310.pyc\n'}
+[9.362095] (navigation_core2) StdoutLine: {'line': b'Copying ../build/navigation_core2/navigation_core2.egg-info to /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/python3.10/site-packages/navigation_core2-0.0.0-py3.10.egg-info\n'}
+[9.362546] (navigation_core3) StdoutLine: {'line': b'byte-compiling /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages/navigation_core3/__init__.py to __init__.cpython-310.pyc\n'}
+[9.362839] (navigation_core3) StdoutLine: {'line': b'running install_data\n'}
+[9.364039] (navigation_core2) StdoutLine: {'line': b'running install_scripts\n'}
+[9.364316] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core3/share/ament_index\n'}
+[9.364503] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core3/share/ament_index/resource_index\n'}
+[9.364646] (navigation_core3) StdoutLine: {'line': b'creating /home/rsl/pioneerbase_ws/src/install/navigation_core3/share/ament_index/resource_index/packages\n'}
+[9.364818] (navigation_core3) StdoutLine: {'line': b'copying resource/navigation_core3 -> /home/rsl/pioneerbase_ws/src/install/navigation_core3/share/ament_index/resource_index/packages\n'}
+[9.364976] (navigation_core3) StdoutLine: {'line': b'copying package.xml -> /home/rsl/pioneerbase_ws/src/install/navigation_core3/share/navigation_core3\n'}
+[9.365091] (navigation_core3) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.368417] (navigation_core3) StdoutLine: {'line': b'Copying ../build/navigation_core3/navigation_core3.egg-info to /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/python3.10/site-packages/navigation_core3-0.0.0-py3.10.egg-info\n'}
+[9.370335] (navigation_core3) StdoutLine: {'line': b'running install_scripts\n'}
+[9.409852] (navigation_core2) StdoutLine: {'line': b'Installing run_navigation script to /home/rsl/pioneerbase_ws/src/install/navigation_core2/lib/navigation_core2\n'}
+[9.410511] (navigation_core2) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/navigation_core2/install.log'\n"}
+[9.416076] (navigation_core3) StdoutLine: {'line': b'Installing run_navigation script to /home/rsl/pioneerbase_ws/src/install/navigation_core3/lib/navigation_core3\n'}
+[9.416758] (navigation_core3) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/pioneerbase_ws/src/build/navigation_core3/install.log'\n"}
+[9.447040] (-) TimerEvent: {}
+[9.465123] (navigation_core2) CommandEnded: {'returncode': 0}
+[9.543966] (navigation_core2) JobEnded: {'identifier': 'navigation_core2', 'rc': 0}
+[9.545863] (navigation_core3) CommandEnded: {'returncode': 0}
+[9.547134] (-) TimerEvent: {}
+[9.627460] (navigation_core3) JobEnded: {'identifier': 'navigation_core3', 'rc': 0}
+[9.629454] (-) EventReactorShutdown: {}

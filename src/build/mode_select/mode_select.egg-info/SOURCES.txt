@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/mode_select/mode_select.egg-info/PKG-INFO
+../build/mode_select/mode_select.egg-info/SOURCES.txt
+../build/mode_select/mode_select.egg-info/dependency_links.txt
+../build/mode_select/mode_select.egg-info/entry_points.txt
+../build/mode_select/mode_select.egg-info/requires.txt
+../build/mode_select/mode_select.egg-info/top_level.txt
+../build/mode_select/mode_select.egg-info/zip-safe
+mode_select/__init__.py
+mode_select/mode_select.py
+resource/mode_select
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

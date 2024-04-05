@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/navigation_core1/navigation_core1.egg-info/PKG-INFO
+../build/navigation_core1/navigation_core1.egg-info/SOURCES.txt
+../build/navigation_core1/navigation_core1.egg-info/dependency_links.txt
+../build/navigation_core1/navigation_core1.egg-info/entry_points.txt
+../build/navigation_core1/navigation_core1.egg-info/requires.txt
+../build/navigation_core1/navigation_core1.egg-info/top_level.txt
+../build/navigation_core1/navigation_core1.egg-info/zip-safe
+navigation_core1/__init__.py
+navigation_core1/waypoint_controller.py
+resource/navigation_core1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

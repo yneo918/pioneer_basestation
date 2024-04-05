@@ -1,0 +1,46 @@
+[0.549s] Invoking command in '/home/rsl/pioneerbase_ws/src/build/bs_launch': CMAKE_PREFIX_PATH=/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/src/install/navigation_core3:/home/rsl/pioneerbase_ws/src/install/navigation_core2:/home/rsl/pioneerbase_ws/src/install/navigation_core1:/home/rsl/pioneerbase_ws/src/install/mode_select:/home/rsl/pioneerbase_ws/src/install/gps_target_push:/home/rsl/pioneerbase_ws/src/install/bs_launch:/opt/ros/humble /usr/bin/cmake /home/rsl/pioneerbase_ws/src/bs_launch -DCMAKE_INSTALL_PREFIX=/home/rsl/pioneerbase_ws/src/install/bs_launch
+[3.301s] -- The C compiler identification is GNU 11.4.0
+[4.349s] -- The CXX compiler identification is GNU 11.4.0
+[4.505s] -- Detecting C compiler ABI info
+[5.077s] -- Detecting C compiler ABI info - done
+[5.089s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.090s] -- Detecting C compile features
+[5.123s] -- Detecting C compile features - done
+[5.130s] -- Detecting CXX compiler ABI info
+[5.324s] -- Detecting CXX compiler ABI info - done
+[5.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.337s] -- Detecting CXX compile features
+[5.338s] -- Detecting CXX compile features - done
+[5.458s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.037s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.898s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.289s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.292s] -- Added test 'lint_cmake' to check CMake code style
+[7.294s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.298s] -- Added test 'xmllint' to check XML markup files
+[7.302s] -- Configuring done
+[7.309s] -- Generating done
+[7.311s] -- Build files have been written to: /home/rsl/pioneerbase_ws/src/build/bs_launch
+[7.407s] Invoked command in '/home/rsl/pioneerbase_ws/src/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/src/install/navigation_core3:/home/rsl/pioneerbase_ws/src/install/navigation_core2:/home/rsl/pioneerbase_ws/src/install/navigation_core1:/home/rsl/pioneerbase_ws/src/install/mode_select:/home/rsl/pioneerbase_ws/src/install/gps_target_push:/home/rsl/pioneerbase_ws/src/install/bs_launch:/opt/ros/humble /usr/bin/cmake /home/rsl/pioneerbase_ws/src/bs_launch -DCMAKE_INSTALL_PREFIX=/home/rsl/pioneerbase_ws/src/install/bs_launch
+[7.409s] Invoking command in '/home/rsl/pioneerbase_ws/src/build/bs_launch': CMAKE_PREFIX_PATH=/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/src/install/navigation_core3:/home/rsl/pioneerbase_ws/src/install/navigation_core2:/home/rsl/pioneerbase_ws/src/install/navigation_core1:/home/rsl/pioneerbase_ws/src/install/mode_select:/home/rsl/pioneerbase_ws/src/install/gps_target_push:/home/rsl/pioneerbase_ws/src/install/bs_launch:/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/src/build/bs_launch -- -j4 -l4
+[7.599s] Invoked command in '/home/rsl/pioneerbase_ws/src/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/src/install/navigation_core3:/home/rsl/pioneerbase_ws/src/install/navigation_core2:/home/rsl/pioneerbase_ws/src/install/navigation_core1:/home/rsl/pioneerbase_ws/src/install/mode_select:/home/rsl/pioneerbase_ws/src/install/gps_target_push:/home/rsl/pioneerbase_ws/src/install/bs_launch:/opt/ros/humble /usr/bin/cmake --build /home/rsl/pioneerbase_ws/src/build/bs_launch -- -j4 -l4
+[7.640s] Invoking command in '/home/rsl/pioneerbase_ws/src/build/bs_launch': CMAKE_PREFIX_PATH=/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/src/install/navigation_core3:/home/rsl/pioneerbase_ws/src/install/navigation_core2:/home/rsl/pioneerbase_ws/src/install/navigation_core1:/home/rsl/pioneerbase_ws/src/install/mode_select:/home/rsl/pioneerbase_ws/src/install/gps_target_push:/home/rsl/pioneerbase_ws/src/install/bs_launch:/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/src/build/bs_launch
+[7.651s] -- Install configuration: ""
+[7.651s] -- Up-to-date: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch//launch
+[7.651s] -- Up-to-date: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch//launch/station.launch.py
+[7.652s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index/resource_index/package_run_dependencies/bs_launch
+[7.652s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index/resource_index/parent_prefix_path/bs_launch
+[7.652s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/environment/ament_prefix_path.sh
+[7.652s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/environment/ament_prefix_path.dsv
+[7.653s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/environment/path.sh
+[7.653s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/environment/path.dsv
+[7.653s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/local_setup.bash
+[7.654s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/local_setup.sh
+[7.654s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/local_setup.zsh
+[7.654s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/local_setup.dsv
+[7.654s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/package.dsv
+[7.655s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/ament_index/resource_index/packages/bs_launch
+[7.655s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/cmake/bs_launchConfig.cmake
+[7.656s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/cmake/bs_launchConfig-version.cmake
+[7.656s] -- Installing: /home/rsl/pioneerbase_ws/src/install/bs_launch/share/bs_launch/package.xml
+[7.659s] Invoked command in '/home/rsl/pioneerbase_ws/src/build/bs_launch' returned '0': CMAKE_PREFIX_PATH=/home/rsl/pioneerbase_ws/src/install/rover_teleop_joy:/home/rsl/pioneerbase_ws/src/install/navigation_core3:/home/rsl/pioneerbase_ws/src/install/navigation_core2:/home/rsl/pioneerbase_ws/src/install/navigation_core1:/home/rsl/pioneerbase_ws/src/install/mode_select:/home/rsl/pioneerbase_ws/src/install/gps_target_push:/home/rsl/pioneerbase_ws/src/install/bs_launch:/opt/ros/humble /usr/bin/cmake --install /home/rsl/pioneerbase_ws/src/build/bs_launch
