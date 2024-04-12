@@ -143,18 +143,22 @@ class giveDirections(Node):
         self.dist=dist;
         
         msg = Twist()
-        if dist < 0.0001:
-            msg.linear.x = 0.0
-            msg.angular.z = 0.0
-            print("dist", dist, degrees(yawTarget), self.curHeading, yawDelta)
-        elif yawDelta < 90 or yawDelta > -90:
+        if dist < 2.5:
+            msg.linear.x = 0
+            msg.angular.z = 0
+            print("STOPPED, ", dist, degrees(yawTarget), self.curHeading, yawDelta)
+        elif dist < 5:
+            msg.linear.x = -1/5 * dist
+            msg.angular.z = -1.2 * yawDelta/360
+            print("PARKING, ", dist, degrees(yawTarget), self.curHeading, yawDelta)
+        elif yawDelta < 90 and yawDelta > -90:
             msg.linear.x = -1.0
-            msg.angular.z = -0.6 * yawDelta/360
-            print("dist", dist, degrees(yawTarget), self.curHeading, yawDelta)
+            msg.angular.z = -1.2 * yawDelta/360
+            print("TRAVELLING, ", dist, degrees(yawTarget), self.curHeading, yawDelta)
         else:
-            msg.linear.x=0.0
-            msg.angular.z = -1.0 * yawDelta/360
-            print("dist", dist, degrees(yawTarget), self.curHeading, yawDelta)
+            msg.linear.x = 0.0
+            msg.angular.z = -2.0 * yawDelta/360
+            print("TURNING, ", dist, degrees(yawTarget), self.curHeading, yawDelta)
 
         #print(msg)
         self.publisher_.publish(msg)

@@ -27,16 +27,17 @@ def generate_launch_description():
     nav1 = Node(
         package="navigation_core1",
         executable="run_navigation",
+        
     )
     nav2 = Node(
         package="navigation_core2",
         executable="run_navigation",
-        output='screen',
-        emulate_tty=True,
     )
     nav3 = Node(
         package="navigation_core3",
         executable="run_navigation",
+        output='screen',
+        emulate_tty=True,
     )
 
     teleop = Node(
