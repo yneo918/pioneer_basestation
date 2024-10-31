@@ -1,3 +1,0 @@
-[console_scripts]
-push_target = gps_target_push.test_position:main
-

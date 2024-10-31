@@ -1,9 +1,0 @@
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/uninstall.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/bs_launch_uninstall.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/test.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/edit_cache.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/rebuild_cache.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/list_install_components.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/install.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/install/local.dir
-/home/rsl/pioneerbase_ws/src/build/bs_launch/CMakeFiles/install/strip.dir

@@ -1,3 +1,0 @@
-[console_scripts]
-mode_select = mode_select.mode_select:main
-
